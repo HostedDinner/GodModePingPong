@@ -1,0 +1,39 @@
+body{
+	margin:auto auto;
+}
+
+canvas{
+	border:1px solid black;
+}
+
+table{
+	width:100%;
+}
+
+.wrapper{
+	width:950px;
+	margin:20px;
+	
+}
+
+.fleft{
+	float:left;
+	width:802px; /*canvas has 2px border*/
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+
+.fright{
+	float:right;
+	width:148px;
+	text-align:right;
+}
+
+.score{
+	font-size:40pt;
+}
+
+.buttons{
+	clear:both;
+}

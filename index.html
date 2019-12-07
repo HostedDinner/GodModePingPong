@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ping Pong</title>
+	
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<script src="./pingpong.js"></script>
+		<div class="fleft">
+			<canvas id="playfield" width="800" height="600"></canvas>
+		</div>
+		<div class="fright">
+			<span class="score"><span id="scp1">0</span>:<span id="scp2">0</span></span><br>
+			Computer vs. Player
+		</div>
+		<div class="buttons">
+			<button type="button" id="startButton">Start Game</button>
+			<button type="button" id="resetButton">Reset Game</button>
+			Speed <input type="range" id="speedSlider" name="points" min="5" max="16" value="16"></input><br><br>
+			<table>
+				<tr>
+					<td>Strg oder Shift</td><td>Ball starten</td>
+				</tr>
+				<tr>
+					<td>Pfeil hoch/runter</td><td>Paddle hoch/runter bewegen</td>
+				</tr>
+				<tr>
+					<td>Pause</td><td>Pause</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
